@@ -1,0 +1,85 @@
+.contenedor{
+    display: flex;
+    min-width: 650px;
+}
+
+.cabecera{
+    width: 100%; 
+    position: fixed;
+    z-index: 3;
+    min-width: 650px;
+}
+#logo{
+    height: 150px;
+    width: 100%;
+}
+.cuerpo{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    min-width: 650px;
+    background-image: url(../src/las_estrellas_tienen_luz_propia_1578_orig.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.5rem;
+    margin: 40px 10px;
+    display: inline-block;
+}
+.card img{
+    width: 80%;
+    margin: auto;
+    border-radius: 30%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    background-color: chocolate;
+    z-index: 2;
+}
+
+.card-footer-social {
+    width: 100%;
+    position: relative;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 1.3rem;
+    z-index: 1;
+   
+  }
+  .card:hover{ 
+    border-style: solid;
+    border-width: 2px;
+    border-color: coral;
+    padding: 1px;
+    
+  }
+  #datos{
+    padding-top: 35px;
+    margin-top: -10px;
+  }
+  
+  #lista{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+  a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+text-decoration: none;
+}
+

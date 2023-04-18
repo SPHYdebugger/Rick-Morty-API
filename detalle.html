@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>R&M API</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./src/favicon-32x32.png">
+        <link rel="stylesheet" href="./css/detalle.css">
+        <script src="./js/detalle.js"></script>    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="contenedor">
+
+            <div class="cabecera">                
+                <img id="logo" src="src\Rick&MortyS02_Header_Santi.jpg" alt="Foto cabecera">
+                
+                <nav class="navbar navbar-expand-sm bg-body-tertiary">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">CHARACTERS</a>           
+                    <a class="navbar-brand" href="places.html">LOCATIONS</a>   
+                    <input class="form-control me-2 w-25" style="margin-left: auto;" id="formulario" type="search"  placeholder="Search a character" aria-label="Search">
+                    <button class="btn btn-info" id="buscar" style="width:100px;">buscar</button>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="cuerpo">
+                <div id="lista"></div>
+            </div>
+
+        </div>
+        
+    </body>
+</html>
